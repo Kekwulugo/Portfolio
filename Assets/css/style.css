@@ -1,4 +1,5 @@
 body{
+ background-color: white;
  margin: 0;
  padding: 0;
 }
@@ -50,13 +51,31 @@ font-size: 20px;
   padding: 10%;
 }
 
-.flex-container-two {
+
+.hero-secondary{
+  font-size: 18px;
+  color: #E5E7EB; 
+}
+
+.btn {
   color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  height: 60%;
-  width: 50%;
+    padding: 5px 30px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-align: center;
+    display: inline;
+    height: 70px;
+    width: 132px;
+}
+.btn-one {
+  color: white;
+  padding: 5px 30px;
+  background-color: #3882F6;
+  border-radius: 5px;
+  border: 1px solid #3882F6;
+  text-align: center;
+  display: inline;
 }
 
 h2{
@@ -70,6 +89,13 @@ h2{
  background-color: white;
  text-align: center;
 
+}
+.flex-containerOne {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5%;
+ 
 }
 .subtext{
   width: 200px;
@@ -88,10 +114,27 @@ h2{
   color: white;
 }
 #headshot{
-  width: 70%;
+  width: 25%;
   border-radius: 200px;
   border-style: solid;
   border: #1F2937;
+}
+#authour {
+  text-align: right;
+  color: black;
+  font-size: 20px;
+  font-style: normal;
+}
+#quote{
+  padding: 50px 250px;
+
+}
+.quote{
+ text-align: left;
+ font-style: italic;
+ color: #1F2937;
+ font-size: 36px;
+ background-color: #E5E7EB;
 }
 
 footer a {
