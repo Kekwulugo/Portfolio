@@ -3,49 +3,11 @@ body{
  margin: 0;
  padding: 0;
 }
-#navbar{
-  background-color: #825748;
-  overflow: hidden;
-}
 
-#navbar a{
- float: right;
- display: block;
- color: white;
- text-align: center;
- padding: 14px;
-font-size: 20px;
-}
-nav p{
-  float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding-left: 10px;
-    font-size: 20px;
-}
 
-#navbar a:hover {
- background-color: #111;
+article{
+  padding: 100px;
 }
-
-/* Page content */
-.content {
-  padding: 16px;
-}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky+.content {
-  padding-top: 60px;
-}
-
 
 .flex-item{
   padding: 10%;
